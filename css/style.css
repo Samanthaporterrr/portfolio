@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: var(--Gray);
 }
-.topNav{
+.topNave{
     background-color: var(--Primary-extra-light);
 }
 .navContainer{
@@ -38,7 +38,7 @@ section.hero{
 
 .heroContainer{
     margin: auto;
-    width: 1400px;
+    width: var(--container-width);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,4 +138,73 @@ footer{
     font-weight: 400;
     margin-bottom: 0;
     margin-top: 0.75rem;
+}
+@media all and (max-width: 1400px) {
+
+}
+@media all and (max-width: 1400px) {
+    .heroImage{
+        width: 20%
+    }
+    .heroContent{
+        widtth: 60%
+    }
+}
+@media all and (max-width: 1200px){
+    .heroImage{
+        padding: 20px;
+    }
+}
+@media all and (max-width: 992px){
+    .heroImage{
+        width: 20%;
+    }
+    .heroContent{
+        width: 80%
+    }
+}
+@media all and (max-width: 768px){
+    .heroContainer{
+        flex-direction: column;
+    }
+    .heroTitle{
+       text-align: center;
+    }
+    .heroImage{
+        width: 40%;
+    }
+    .heroContainer{
+        width: 100%
+    }
+}
+@media all and (max-width: 992px){
+    .heroImage{
+        width: 20%;
+    }
+    .heroContent{
+      width: 80%;
+    }
+    .projectContainer{
+        flex-wrap: wrap;
+    }
+    .projectCard{
+        width: 48%
+    }
+}
+@media all and (max-width: 768px){
+    .heroContainer{
+        flex-direction: column;
+    }
+    .heroTitle{
+     text-align: center;
+    }
+    .heroImage{
+       width: 40%;
+    }
+    .heroContent{
+        width: 100%
+    }
+    .projectCard{
+        width: 100%;
+    }
 }
