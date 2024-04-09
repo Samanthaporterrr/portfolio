@@ -32,6 +32,11 @@ ul.nav{
 .navItem.selected{
     color: var(--Secondary-dark);
 }
+
+.mobileMenu{
+    display: none;
+}
+
 section.hero{
     background: var(--Primary-gradient);
 }
@@ -206,5 +211,16 @@ footer{
     }
     .projectCard{
         width: 100%;
+    }
+}
+@media all and (max-width: 576px){
+    .mobileMenu {
+        display: block;
+    }
+    ul.nav{
+        display: none;
+    }
+    .topNav{
+        padding: 20px 0;
     }
 }
