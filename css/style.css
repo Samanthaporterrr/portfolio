@@ -32,9 +32,13 @@ ul.nav{
 .navItem.selected{
     color: var(--Secondary-dark);
 }
+.mNavItem{
+    display: block;
+}
 
 .mobileMenu{
     display: none;
+    position: relative;
 }
 
 section.hero{
