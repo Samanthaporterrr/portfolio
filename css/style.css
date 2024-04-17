@@ -32,15 +32,9 @@ ul.nav{
 .navItem.selected{
     color: var(--Secondary-dark);
 }
-.mNavItem{
-    display: block;
-}
 
 .mobileMenu{
     display: none;
-}
-.mobileMenu{
-    position: relative;
 }
 
 section.hero{
@@ -235,3 +229,9 @@ footer{
         padding: 20px 0;
     }
 }
+.mNavItem {
+    display: block;
+}
+.mobileMenu{
+    position: relative;
+ }
