@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    width: var(--container-width);
     margin: auto;
 }
 ul.nav{
@@ -67,6 +67,11 @@ section.hero{
 
 .heroText{
     margin: 0;
+}
+.projects {
+    width: var(--container-width);
+    margin: auto;
+    margin-top: 60px;
 }
 .projects .sectionTitle{
     text-align: center;
