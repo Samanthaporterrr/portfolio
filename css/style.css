@@ -230,7 +230,7 @@ footer{
     }
 }
 
-.mNavItem {
+.NavItem {
     display: block;
     padding: 20px 30px;
     text-decoration: none;
@@ -246,8 +246,9 @@ footer{
     top: 30px;
     background-color: white;
     width: 100vw;
+    display: none;
 }
 .mNavItem.selected{
     font-weight: bold;
-     color: var(--Secondary-dark);
+    color: var(--Secondary-dark);
 }
