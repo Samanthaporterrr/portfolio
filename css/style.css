@@ -38,6 +38,8 @@ ul.nav{
 
 .mobileMenu{
     display: none;
+}
+.mobileMenu{
     position: relative;
 }
 
