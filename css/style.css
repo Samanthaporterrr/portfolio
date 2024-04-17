@@ -236,18 +236,18 @@ footer{
     text-decoration: none;
     border-bottom: 1px solid var(--Primary-extra-light);
     color: var(--Primary);
- }
+}
 .mobileMenu{
     position: relative;
- }
- .mobileNav{
+}
+.mobileNav{
     position: absolute;
     right: -20px;
     top: 30px;
     background-color: white;
     width: 100vw;
- }
- .mNavItem.selected{
+}
+.mNavItem.selected{
     font-weight: bold;
      color: var(--Secondary-dark);
- }
+}
