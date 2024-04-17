@@ -124,7 +124,7 @@ footer{
     margin-top: 60px;
 }
 .footerContainer{
-    width: 496px;
+    width:var(--container-width) ;
     margin: auto;
     text-align: center;
 }
