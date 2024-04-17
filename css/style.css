@@ -235,3 +235,8 @@ footer{
 .mobileMenu{
     position: relative;
  }
+ .mobileNav{
+    position: absolute;
+    right: 0;
+    top: 30px;
+ }
