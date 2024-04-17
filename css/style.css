@@ -247,3 +247,7 @@ footer{
     background-color: white;
     width: 100vw;
  }
+ .mNavItem.selected{
+    font-weight: bold;
+     color: var(--Secondary-dark);
+ }
