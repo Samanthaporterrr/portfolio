@@ -1,5 +1,5 @@
 $("#navIcon").on("click", function(){
-    $(".mobilwNav").slideToggle();
+    $(".mobileNav").slideToggle();
     $("#navIcon").toggleClass("fa-bars");
     $("#navIcon").toggleClass("fa-xmark");
 })
