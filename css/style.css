@@ -30,6 +30,7 @@ ul.nav{
 }
 
 .navItem.selected{
+    font-weight: bold;
     color: var(--Secondary-dark);
 }
 
